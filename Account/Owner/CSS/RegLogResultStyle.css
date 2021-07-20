@@ -1,0 +1,22 @@
+div#RegResultBlock{width:285px;border:5px solid #ddd;padding:10px;margin:auto; text-align:center}
+body{background-image: url('../Images/G.jpg'); background-repeat:no-repeat; background-size:cover; color:orange;font-size:18px; min-height:100vh}
+div#RegResultBlock2{background-image: url('../Images/F2.jpg'); padding:20px}
+div#RegResultBlock3{background-color: #0A0F48;color:#00E9FF; padding:0px}
+div#RegResultBlock4{background-image: url('../Images/F1.jpg');color:orange;padding:20px;font-size:18px}
+h2#Hi{color:white}
+h2#Username{color:red}
+h3#Password{color:lightgreen}
+h3#Email{color:lightgreen}
+h3#Gender{color:lightgreen}
+h3#Profession{color:lightgreen}
+h3#Date{color:lightgreen}
+h3#UploadedFile{color:lightgreen}
+h2#Marquee{color: #B6FF00}
+
+
+div#LoginResultBlock{width:285px;border:5px solid #ddd;padding:10px;margin:auto; text-align:center}
+body{background-image: url('../Images/G.jpg'); background-repeat:no-repeat; background-size:cover; color:orange;font-size:18px; min-height: 100vh}
+div#LoginResultBlock2{background-image: url('../Images/F2.jpg'); padding:20px}
+div#LoginResultBlock3{background-color: #0A0F48;color:#00E9FF; padding:0px}
+div#LoginResultBlock4{background-image: url('../Images/F1.jpg');color:orange;padding:20px;font-size:18px}
+h2#Welcome{color:white}

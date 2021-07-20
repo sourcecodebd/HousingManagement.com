@@ -1,0 +1,36 @@
+.topnav {
+  overflow: hidden;
+  background-color: darkblue;
+  }
+  .topnav a {
+  float: left;
+  display: block;
+  color: #00E9FF;
+  text-align: center;
+  padding: 6px 16px;
+  text-decoration: none;
+  }
+  
+  .topnav a:hover {color: black; background-color:yellow
+  }
+
+  div.sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      background-color:transparent;
+      border: 3px solid white;
+      padding: 5px;
+      font-size: 18px;
+      font-family:calibri;
+      animation: myfirst 10s 100000000;
+      
+    }
+
+    @keyframes myfirst {
+      0%   {background: red; left: 0px; top: 0px;}
+      25%  {background: orange; left: 0px; top: 0px;}
+      50%  {background: blue; left: 0px; top: 0px;}
+      75%  {background: green; left: 0px; top: 0px;}
+      100% {background: red; left: 0px; top: 0px;}
+    }

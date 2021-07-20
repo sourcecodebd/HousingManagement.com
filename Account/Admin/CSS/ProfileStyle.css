@@ -1,0 +1,40 @@
+div#ProfileBlock{width:285px;border:5px solid #ddd;padding:10px;margin:auto; text-align:center}
+body{background-image: url('../Images/G.jpg'); background-repeat:no-repeat; background-size:cover; color:orange;font-size:18px; min-height: 140vh}
+div#ProfileBlock2{background-image: url('../Images/F2.jpg'); padding:20px}
+div#ProfileBlock3{background-color: #0A0F48;color:#00E9FF; padding:0px}
+div#ProfileBlock4{background-image: url('../Images/F1.jpg');color:orange;padding:20px;font-size:18px}
+h2#Hi{color:white}
+h2#Username{color:red}
+h3#YourProfile{color:#00E9FF}
+h3#fname{color:lightgreen; margin:0}
+h3#lname{color:lightgreen; margin:0}
+h3#email{color:lightgreen; margin:0}
+h3#gender{color:lightgreen; margin:0}
+span#Male{color:orange; margin:0}
+h3#gender{color:lightgreen; margin:0}
+span#Female{color:orange; margin:0}
+h3#profession{color:lightgreen; margin:0}
+span#Doctor{color:orange; margin:0}
+h3#profession{color:lightgreen; margin:0}
+span#Engineer{color:orange; margin:0}
+h3#date{color:lightgreen; margin:0}
+h4#ErrorUpload{color:red}
+h2#Upload{background-color: black;color:#00E9FF; border: 2px solid #ddd}
+Label#LabelUpload{color:orange; font-family:calibri}
+h2#Marquee{color: #B6FF00}
+
+div#RegistrationBlock{width:1300px;border:5px solid #ddd;padding:10px;margin:auto;text-align:center}
+body{background-image: url('../Images/G.jpg'); background-repeat:no-repeat; background-size:cover;color:orange;font-size:18px}
+div#RegistrationBlock2{background-image: url('../Images/F2.jpg');color:black; padding:20px}
+div#RegistrationBlock3{background-color: #0A0F48;color:#00E9FF; padding:0px}
+div#RegistrationBlock4{background-color:#0A0F48;color:#00E9FF;padding:0px;font-family:calibri}
+div#RegistrationBlock5{background-image: url('../Images/F1.jpg');color:#B6FF00;padding:1px}
+div#RegistrationBlock6{background-image: url('../Images/F1.jpg');color:#00FFA8;padding:20px;font-size:18px}
+h2#UserList{color:#00E9FF; background-color:darkblue; border:2px solid white}
+h2#UserList:hover{color:white; background-color:red; border:2px solid white}
+Label#FlatId{color:lightgreen}
+Label#ProfileId{color:lightgreen}
+
+/*js validation*/
+h4#jsprofileiderror{color:orange; margin:7px}
+h4#jsflatiderror{color:orange; margin:7px}

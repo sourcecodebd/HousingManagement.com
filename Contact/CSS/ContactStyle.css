@@ -1,0 +1,239 @@
+body{
+  min-height: 100vh;
+  background-image:url('../../Header/header.jpg');
+  background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+}
+
+.row{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+.main-nav{
+	float: right;
+	margin-top: 60px;
+}
+
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+  margin-left: 40px;
+  text-align: center;
+}
+
+.main-nav li h1{
+  color:black;
+  background-color:white;
+  padding: 5px 5px;
+  border:2px solid black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%; 
+  font-weight: 600;
+  margin-right:40px;
+  margin-top: -25px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.main-nav li h1:hover{
+  color:#00E9FF;
+  background-image:url('https://i.imgur.com/Kce5BG6.gif');
+  border-bottom: 3px solid #bf55ec;
+  border-top: 3px solid yellow;
+  border-right: 3px solid #00E9FF;
+  border-left: 3px solid orange;
+}
+
+
+.contact-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info{
+  color: #fff;
+  max-width: 500px;
+  line-height: 65px;
+  padding-left: 50px;
+  font-size: 18px;
+}
+
+.contact-info h6{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.contact-info i{
+  color: white;
+  width:270px;
+  max-width: 1180px;
+  margin-right: 20px;
+  font-size: 18px;
+  border-radius: 100px;
+  padding:10px;
+  background-image:url('https://i.imgur.com/Kce5BG6.gif');
+  border-bottom: 3px solid #bf55ec;
+  border-top: 3px solid yellow;
+  border-right: 3px solid #00E9FF;
+  border-left: 3px solid orange;
+}
+.contact-info:hover{  background-image:url('https://i.imgur.com/Kce5BG6.gif');
+  border-radius: 50px;
+  border-bottom: 3px solid #bf55ec;
+  border-top: 3px solid yellow;
+  border-right: 3px solid #00E9FF;
+  border-left: 3px solid orange;
+  transition: 0.3s;
+}
+ 
+
+.contact-form{
+  max-width: 700px;
+  margin-right: 50px;
+}
+
+.contact-info, .contact-form{
+  flex: 1;
+}
+
+.contact-form h2{
+  color: #00E9FF;
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: dashed;
+  margin-bottom: 40px;
+}
+
+.contact-form .text-box{
+  background:yellow;
+  color: black;
+  border: 3px solid black;
+  width: calc(30% - 10px);
+  height: 20px;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.contact-form .text-box:first-child{
+  margin-right: 15px;
+}
+
+.contact-form textarea{
+  background: rgb(66, 66, 243);
+  color:yellow;
+  border: 3px solid black;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  min-height: 200px;
+  max-height: 400px;
+  resize: vertical;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.contact-form .send-btn{
+  float: right;
+  background: darkblue;
+  border: 3px solid #00E9FF;
+  color:#00E9FF;
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  letter-spacing: 2px;
+  transition-property: background;
+  margin-bottom: -10px;
+  margin-left: 50x;
+}
+
+.contact-form .send-btn:hover{
+  color: black;
+  background: yellow;
+  border: 3px solid black;
+}
+
+@media screen and (max-width: 950px){
+  .contact-section{
+    flex-direction: column;
+  }
+
+  .contact-info{
+    margin: 30px 50px;
+    width:100%;
+  }
+
+
+  h6{
+    margin: 30px 40px;
+    width:100%;
+  }
+
+
+  .contact-form{
+    margin: 30px 50px;
+  
+  }
+
+  .contact-form h2{
+    width:100%;
+  }
+
+  .contact-form .text-box{
+    width: 100%;
+  }
+}
+
+/*css for alert messages*/
+
+.alert-success{
+  z-index: 1;
+  background: darkblue;
+  color:yellow;
+  font-size: 15px;
+  padding: -60px 200px;
+  min-width: 420px;
+  position: fixed;
+  right: 0;
+  top: 10px;
+  border-left: 8px solid #00E9FF;
+  border-radius: 4px;
+  
+}
+
+.alert-error{
+  z-index: 1;
+  background: #FFF3CD;
+  font-size: 15px;
+  padding: 20px 40px;
+  min-width: 420px;
+  position: fixed;
+  right: 0;
+  top: 10px;
+  border-left: 8px solid #FFA502;
+  border-radius: 4px;
+}

@@ -1,0 +1,23 @@
+div#RegistrationBlock{width:1300px;border:5px solid #ddd;padding:10px;margin:auto;text-align:center}
+body{background-image: url('../Images/G.jpg'); background-repeat:no-repeat; background-size:cover;color:orange;font-size:18px; min-height:140vh}
+div#RegistrationBlock2{background-image: url('../Images/F2.jpg');color:black; padding:20px}
+div#RegistrationBlock3{background-color: #0A0F48;color:#00E9FF; padding:0px}
+div#RegistrationBlock4{background-color:#0A0F48;color:#00E9FF;padding:0px;font-family:calibri}
+div#RegistrationBlock5{background-image: url('../Images/F1.jpg');color:#B6FF00;padding:1px}
+h2#Marquee{direction:left;color:yellow}
+div#RegistrationBlock6{background-image: url('../Images/F1.jpg');color:#00FFA8;padding:20px;font-size:18px}
+h2#Upload{background-color: black;color:#00E9FF; border: 2px solid #ddd}
+Label#UploadLabel{color:orange; font-family:calibri}
+input#Button{background-color:red; color:white; border:2px solid white; cursor:pointer}
+input#Button:hover{background-color:yellow; color:black; border:2px solid black; cursor:pointer}
+h2#UserList{color:#00E9FF; background-color:darkblue; border:2px solid white}
+h2#UserList:hover{color:white; background-color:red; border:2px solid white}
+
+/*js validation*/
+h4#jsflatnameerror{color:orange; margin:7px}
+h4#jsflataddresserror{color:orange; margin:7px}
+h4#jspriceerror{color:orange; margin:7px}
+h4#jsaboutflaterror{color:orange; margin:7px}
+h4#jsflatstatuserror{color:orange; margin:7px}
+h4#jsdateoflaunchingerror{color:orange; margin:7px}
+h4#jsownererror{color:orange; margin:7px}

@@ -1,0 +1,26 @@
+.header {
+    background-color:red;
+    color:#ddd;
+    font-family:calibri;
+    font-size:8px;
+    text-shadow:5px 5px 5px black;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid white
+    }
+
+    div.relative {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border: 3px solid #73AD21;
+        transition-property: width;
+        transition-duration: 2s;
+      }
+        div.relative:hover {
+        width: 500px;
+        }
+        
+
+h6#Header{font-family: verdana; color: white;margin:0%}
+h6#Footer{font-size:10px; font-family: verdana; text-align: center; color:white; background-color: red; display:block; border:2px solid white}
